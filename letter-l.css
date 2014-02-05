@@ -1,0 +1,71 @@
+.letter {
+ background-color: #ffffff;
+ background-repeat: no-repeat;
+ -moz-background-size: 100% 100%;
+ background-size: 100% 100%;
+ padding: 1em;
+ border: none;
+ width: 400px;
+ height: 500px;
+}
+
+#letter_area {
+	width: 400px;
+	height: 600px;
+}
+
+.letter p {
+ font-size: 1em;
+ line-height: 2.2em;
+ padding-bottom: 0.25em;
+ display: inline;
+ border-bottom: 1px dotted #999;
+ color: #777;
+}
+
+.bcgsize {
+ width: 65px;
+ height: 65px;
+ margin: 10px;
+}
+
+.imgsize {
+ background-repeat: no-repeat;
+ -moz-background-size: auto 100% ;
+ background-size: auto 100%;
+ width: 60px;
+ margin: 10px;
+}
+
+.imgdrag {
+ background-repeat: no-repeat;
+ -moz-background-size: auto 100% ;
+ background-size: auto 100%;
+ width: 130px;
+ margin: 10px;
+ position: absolute;
+}
+
+#lettertext {
+	width: 400px;
+	height: 500px;
+	resize: none;
+}
+
+#lettertext_e {
+	width: 400px;
+	height: 500px;
+	resize: none;
+}
+
+
+#overlay{
+		display: none;
+		width: 100%;
+		height:100%;
+		text-align: center;
+		position: fixed;
+		top: 0;
+		z-index: 100;
+		background: rgba(0,0,0,0.7);
+	}
